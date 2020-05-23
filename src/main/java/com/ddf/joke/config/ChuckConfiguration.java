@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Created by InnocentTIALO on 5/23/2020.
  */
-//@Configuration
+@Configuration
 public class ChuckConfiguration {
     @Bean
     public ChuckNorrisQuotes getChuckNorrisQuotes(){
